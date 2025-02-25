@@ -25,7 +25,7 @@ def main():
             print("Error: --train_data, --test_data, and --output are required in prepare mode.")
             return
 
-        print("Preparing data...")
+        print("Preparing dataaaa...")
         df_train, df_test, scaler = prepare_data(args.train_data, args.test_data)
         
         # Save the prepared data for later use
