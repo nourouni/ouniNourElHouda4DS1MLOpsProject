@@ -1,0 +1,20 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.csv
+*.pickle
+*.pkl
+*.model
+.env
+venv/
+.venv/
+env/
+dist/
+build/
+*.egg-info/
+.DS_Store
