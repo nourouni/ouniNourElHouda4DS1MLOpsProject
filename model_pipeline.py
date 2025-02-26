@@ -55,6 +55,7 @@ def prepare_data(train_path, test_path, scaler=None):
         # Only test data is provided
         df_test = pd.read_csv(test_path)
         df_test = pd.get_dummies(df_test, drop_first=True)
+	print("hello")
         if scaler is not None:
             # We assume that the test data already has the same columns as used during training.
             num_cols = df_test.select_dtypes(include=[np.number]).columns.tolist()
